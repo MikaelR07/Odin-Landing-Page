@@ -200,7 +200,35 @@ header {
   align-self: flex-end;
 }
 .call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.8rem;
+  min-height: 30vh;
+}
+.action-container {
   width: 90%;
   margin: auto;
-  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #2563eb;
+  color: white;
+  height: 20vh;
+  border-radius: 0.6rem;
+}
+
+.action-words h1 {
+  padding: 2rem 0;
+}
+.action-words p {
+  font-size: 1.6rem;
+}
+.action-container button {
+  color: white;
+  background: none;
+  padding: 1rem 3rem;
+  border: 1px solid white;
+  border-radius: 0.8rem;
 }
