@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background: #1f2937;
+}
+.navigation-bar {
+  height: 10vh;
+  width: 90%;
+  margin: auto;
+  font-size: 1.8rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.links-container {
+  /* width: 45%; */
+  display: flex;
+  justify-content: flex-end;
+}
+.links {
+  list-style: none;
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 2.5rem;
+}
+.links li {
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: background 0.2s ease;
+}
+.links li:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: rgb(8, 180, 122);
+}
+
+/* hero section */
+.hero {
+  background: #1f2937;
+  color: white;
+  min-height: 70vh;
+  display: flex;
+  align-items: start;
+}
+
+.hero .container {
+  width: 90%;
+  /* max-width: 1200px; */
+  margin: auto;
+  font-size: 1.8rem;
+  display: flex;
+  flex-wrap: nowrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* gap: 2rem; */
+  padding: 2rem;
+  border: 1px solid red;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  flex: 1 1 500px;
+  align-items: flex-start;
+}
+.intro-text h1 {
+  font-size: clamp(2.8rem, 4.6vw, 4rem);
+  line-height: 1.15;
+  letter-spacing: 0.5px;
+}
+.intro-text p {
+  line-height: 1.7;
+  max-width: 60ch;
+  color: #e5e7eb;
+}
+.intro-text button {
+  width: fit-content;
+  padding: 1rem 2rem;
+  background: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  box-shadow: 0 8px 20px rgba(56, 130, 246, 0.35);
+}
+.intro-text button:hover {
+  background: #2563eb;
+}
+
+.img-container {
+  flex: 1 1 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container img {
+  width: 100%;
+  /* width: min(100%, 520px); */
+  height: auto;
+}
+
+/* @media (max-width: 768px) {
+  .hero .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro-text {
+    align-items: center;
+  }
+  .intro-text button {
+    align-self: center;
+  }
+} */
