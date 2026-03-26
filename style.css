@@ -21,6 +21,7 @@ header {
   font-size: 1.8rem;
   color: white;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
@@ -178,4 +179,21 @@ header {
   font-size: 1.6rem;
   line-height: 1.6;
   color: #475569;
+}
+
+.inspo {
+  font-style: oblique;
+  font-size: 2rem;
+  background: #e5e7eb;
+  text-align: center;
+}
+.quote {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 9rem;
+}
+.quote span {
+  align-self: flex-end;
 }
