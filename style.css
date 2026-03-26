@@ -52,7 +52,7 @@ header {
 .hero {
   background: #1f2937;
   color: white;
-  /* height: 90vh; */
+  min-height: 60vh;
   /* display: flex; */
   /* align-items: flex-start; */
 }
@@ -72,7 +72,7 @@ header {
 }
 .intro-text {
   display: flex;
-  padding: 4rem;
+  padding: 4rem 0;
 
   flex-direction: column;
   gap: 1.6rem;
@@ -109,14 +109,11 @@ header {
 }
 
 .img-container {
-  flex: 1 1 50rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex: 1 1 450px;
+  padding: 5rem 0;
 }
 .img-container img {
-  width: 80%;
-  /* width: min(100%, 520px); */
+  max-width: 100%;
   height: auto;
 }
 /* Random info section */
@@ -145,7 +142,7 @@ header {
   gap: 2.4rem;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .card {
   flex: 1 1 22rem;
@@ -196,4 +193,9 @@ header {
 }
 .quote span {
   align-self: flex-end;
+}
+.call-to-action {
+  width: 90%;
+  margin: auto;
+  font-size: 1.8rem;
 }
