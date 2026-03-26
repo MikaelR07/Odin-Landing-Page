@@ -232,3 +232,14 @@ header {
   border: 1px solid white;
   border-radius: 0.8rem;
 }
+
+.footer-sec {
+  display: flex;
+  /* align-items:; */
+  justify-content: center;
+  align-items: center;
+  background: #1f2937;
+  min-height: 10vh;
+  color: white;
+  font-size: 1.8rem;
+}
